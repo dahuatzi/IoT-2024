@@ -1,0 +1,26 @@
+1. Que tan preciso es el sensor respecto a la temperatura que da la API?
+Se acerca a la temperatura, pero difiere por 3 grados
+
+2. Cual es el % de variación ?
+11% la diferencia entre ambas temperaturas
+
+3. Cual es la principal diferencia entre la práctica 5.1 y la 5.2 con la 5.3?
+Como utilizamos la API para comparar la temperatura del sensor y la real del ambiente, en la primera parte solo usamos datos basura o random para mostrar algo mientras en las graficas de temp
+
+4. Cual plataforma cloud de IoT se te ha hecho mas amigable de las dos
+revisadas y porque?
+Me gustó más ThingSpeak, tiene más features para comparar tablas y mostrar locaciones y status
+
+5. En tus propias palabras como explicarías para que sirve la plataforma
+cloud de IoT y porque se llama de IoT y no simplemente plataforma cloud?
+Para almacenar y deployar los datos de una manera amigable y gráfica para su estudio, es el primer paso al BigData, creo yo
+
+6. Revisa el código y contesta cuales son las líneas de código que escriben el
+status ?
+// get sensors readings
+ temperatureData.dht = getDHTTemperatureC();
+ // get API temp
+ apiTemperature = getTemperatureFromAPI();
+
+7. Exportar a cvs los datos y anexarlos a su entrega, pueden dejar el Excel en
+github también en algún folder de resultados de esta práctica
